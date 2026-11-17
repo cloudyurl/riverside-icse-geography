@@ -76,7 +76,7 @@ export type Paper = {
 export const DEFAULT_SETTINGS: PaperSettings = {
   schoolName: "RIVERSIDE PUBLIC SCHOOL",
   address:
-    "Post Box No # 34, Corsley Road, Kotagiri \u2013 643217, The Nilgiris, TN, India",
+    "Post Box No # 34, Corsley Road, Kotagiri – 643217, The Nilgiris, TN, India",
   examTitle: "PRE-BOARD EXAMINATION",
   session: "2026 - 27",
   grade: "10",

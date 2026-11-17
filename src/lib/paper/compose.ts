@@ -116,8 +116,8 @@ export function compose(code: string): Paper {
       marks: 1,
       answer: item.answer,
     })),
-    mcqs: mcqs.map((item) => ({
-      label: "",
+    mcqs: mcqs.map((item, index) => ({
+      label: `(${ROMAN[index]})`,
       stem: item.stem,
       options: item.options,
       answerLetter: OPTION_LETTERS[item.answer] ?? "a",
